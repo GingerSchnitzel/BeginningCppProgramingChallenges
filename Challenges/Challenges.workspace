@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Challenges" Database="" Version="10000">
   <Project Name="Section6" Path="Section6/Section6.project" Active="Yes"/>
+  <Project Name="Section7" Path="Section7/Section7.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Section6" ConfigName="Debug"/>
+      <Project Name="Section7" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Section6" ConfigName="Release"/>
+      <Project Name="Section7" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

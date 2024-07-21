@@ -34,4 +34,21 @@ int main()
 	}
 	std::cout << '\n';
 	std::cout << vector2.size() << '\n';
+	
+	std::vector<std::vector<int32_t>> vector2d {};
+	vector2d.push_back(vector1);
+	vector2d.push_back(vector2);
+	
+	for(size_t i{}; i < vector2d.size(); ++i)
+	{
+		for(size_t j{}; j < vector2d[i].size(); ++j)
+		{
+			std::cout << vector2d[i].at(j) << ' ';
+		}
+	}
+	
+	vector1.at(0) = 1000;
+	std::cout << '\n';
+	
+	return 0;
 } 
